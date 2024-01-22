@@ -62,6 +62,7 @@ Inside the Python VM and install the Autogen using pip
 ```
 pip install pyautogen
 ```
+---
 
 # Litellm
 
@@ -69,4 +70,12 @@ Inside the Python VM and install the litellm using pip
 
 ```
 pip install litellm
+pip install 'litellm[proxy]'
+```
+---
+
+# Now we ask litellm to access the alreading running Ollama Model - mistral
+
+```
+litellm --model ollam/mistral
 ```
